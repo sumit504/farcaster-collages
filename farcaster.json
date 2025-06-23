@@ -1,0 +1,25 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjE3NjUyLCJ0eXBlIjoiY3VzdG9keSIsImtleSI6IjB4RGM1QmU0Mjg2MEZBRDQ3MTFlQTQ5Nzk4QzE2RDRmMjgwQUMxMzZGMyJ9",
+    "payload": "eyJkb21haW4iOiJld2NsLW1pbmktYXBwLnZlcmNlbC5hcHAifQ",
+    "signature": "MHg3MGVmNmJkYzFlZDViNWFlYjBmNDRhYTZkZTU0NzBiOWYwNDA3MTU1ZjUyMTRiNzEyOTQwYmNlNjk0NzVhNTIzMmE3YzBjN2Q0OTAyNzZhMDczMWZjNjk4NmNmZDEwYzUwYjEzMWMxOGJlZGY0OTMzN2FkYWQwYzhlNDYxOTRlNDFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "EWCL",
+    "homeUrl": "https://ewcl-mini-app.vercel.app",
+    "iconUrl": "https://ewcl-mini-app.vercel.app/favicon.png",
+    "splashImageUrl": "https://ewcl-mini-app.vercel.app/splash.png",
+    "splashBackgroundColor": "#362e6f",
+    "subtitle": "Mint EWCL NFTs on Base",
+    "description": "A minimalist NFT minting experience on the Base network.",
+    "tagline": "EWCL Nft Mint",
+    "ogTitle": "EWCL NFT Mint",
+    "ogDescription": "Mint your EWCL collectibles straight from the Farcaster feed.",
+    "ogImageUrl": "https://ewcl-mini-app.vercel.app/og.png",
+    "primaryCategory": "art-creativity",
+    "tags": ["ewcl", "nft", "base", "mint"],
+    "screenshotUrls": [],
+    "webhookUrl": "https://ewcl-mini-app.vercel.app/api/webhook"
+  }
+}
