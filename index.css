@@ -1,0 +1,28 @@
+@import 'tailwindcss';
+
+body {
+  -webkit-font-smoothing: antialiased;
+  @apply flex flex-col min-h-svh bg-gradient-to-t from-[oklch(0.56_0.3_298.3)] to-[oklch(0.93_0.0814_82.92)] text-[#362e6f] font-sans;
+  touch-action: pan-y;
+}
+
+#root {
+  @apply flex flex-col flex-1 items-center px-5 pt-16 pb-8 gap-16 backdrop-blur-3xl;
+}
+
+@theme {
+  --font-sans: 'Kirang Haerang', system-ui;
+}
+
+/* 🔘 Stylish Buttons */
+button {
+  @apply px-4 py-2 rounded-2xl bg-[#362e6f] text-white text-sm transition-all duration-300;
+}
+
+button:hover {
+  @apply bg-[#241e50] scale-105 shadow-lg;
+}
+
+input[type="file"] {
+  @apply text-sm text-[#362e6f] bg-white p-2 rounded-xl shadow-sm;
+}
